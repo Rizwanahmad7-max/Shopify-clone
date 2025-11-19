@@ -1,0 +1,20 @@
+.item{
+    width: 360px;
+}
+.item p{
+    margin: 6px 0;
+}
+.item-prise-new{
+    color: #374151;
+    font-size: 16px;
+    font-weight: 600;
+}
+.item-prise-old{
+    color: #8c8c8c;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.item:hover{transform: scale(1.1);
+
+}

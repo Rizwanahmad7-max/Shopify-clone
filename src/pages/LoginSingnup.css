@@ -1,0 +1,36 @@
+.auth-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  text-align: center;
+}
+
+.auth-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #0210d1ef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.switch-text span {
+  color: blue;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: bold;
+}

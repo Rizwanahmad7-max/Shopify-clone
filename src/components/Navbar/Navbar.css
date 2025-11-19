@@ -1,0 +1,82 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    box-shadow: 0 1px 3px -2px black;
+    background:rgba(128, 128, 128, 0.726);
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-logo p{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+    color: rgb(112, 91, 91);
+    font-size: 17px;
+    font-weight:500 ;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 05rem; */
+    cursor: pointer;
+font-weight: 600;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: red;
+
+}
+.nav-login-card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-login-card button{
+    width: 7rem;
+     height: 2rem;
+     outline: none;
+     border: 1px black solid;
+     border-radius: 75px;
+     color: rgba(32, 26, 26, 0.712);
+     font-size: 1rem;
+     font-weight: 500;
+     background: white;
+     cursor: pointer;
+}
+.nav-login-card button:hover{
+background:rgb(64, 175, 54);
+}
+.nav-card-count{
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    font-size: 14px;
+    background:red;
+    color: white;
+}
+
+.nav-menu li:hover{
+    color: rgb(47, 216, 47);
+font-size: larger;
+font-weight: 800;
+}
